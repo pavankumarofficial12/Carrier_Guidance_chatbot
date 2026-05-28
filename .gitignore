@@ -1,0 +1,45 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+*.env
+config/settings.py
+
+# =========================
+# Python & Virtual Environment
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# =========================
+# Temporary & Media Files
+# =========================
+*.wav
+temp_*
+*.log
+logs/
+__temp__/
+
+# =========================
+# IDE & OS Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Large Files & Models
+# =========================
+*.pt
+*.bin
+whisper_models/
